@@ -2003,6 +2003,11 @@ const checkAnswer = () => {
   imageElement.src = userAnswerObject.image;
   guessedMinionBlock.appendChild(imageElement);
   imageElement.classList.add("hidden");
+  
+    if (userAnswerObject.name === realAnswerObject.name) {
+    guessedMinionBlock.style.backgroundColor = "#064606"
+  }
+
 
   guessedMinionBlock.addEventListener("mouseover", () => {
     imageElement.style.height = "250px";
