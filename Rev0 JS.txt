@@ -1,0 +1,640 @@
+const hearthstoneBattlegroundsOjbect = [
+  {
+    name: "Alleycat",
+    picture:
+      "https://static.wikia.nocookie.net/hearthstone_gamepedia/images/6/66/BG_CFM_315_Battlegrounds.png",
+    tier: 1,
+    type: "Beast",
+    availability: "Current-Minion",
+    keywords: ["Battlecry", "Summon"],
+  },
+  {
+    name: "Deck Swabbie",
+    picture:
+      "https://static.wikia.nocookie.net/hearthstone_gamepedia/images/f/f5/BGS_055_Battlegrounds.png",
+    tier: 1,
+    type: "Pirate",
+    availability: "Current-Minion",
+    keywords: ["Battlecry"],
+  },
+  {
+    name: "Evolving Chromawing",
+    picture:
+      "https://static.wikia.nocookie.net/hearthstone_gamepedia/images/6/65/BG21_027_Battlegrounds.png",
+    tier: 1,
+    type: "Demon",
+    availability: "Current-Minion",
+    keywords: "",
+  },
+  {
+    name: "Imprisoner",
+    picture:
+      "https://static.wikia.nocookie.net/hearthstone_gamepedia/images/1/1b/BGS_014_Battlegrounds.png",
+    tier: 1,
+    type: "Demon",
+    availability: "Current-Minion",
+    keywords: ["Taunt", "Deathrattle","Summon"],
+  },
+  {
+    name: "Micro Mummy",
+    picture:
+      "https://static.wikia.nocookie.net/hearthstone_gamepedia/images/6/6e/BG_ULD_217_Battlegrounds.png",
+    tier: 1,
+    type: "Mech",
+    availability: "Current-Minion",
+    keywords: ["Reborn", "Summon","End of Turn"],
+  },
+  {
+    name: "Mini-Myrmidon",
+    picture:
+      "https://static.wikia.nocookie.net/hearthstone_gamepedia/images/e/e0/BG23_000_Battlegrounds.png",
+    tier: 1,
+    type: "Naga",
+    availability: "Current-Minion",
+    keywords: "Spellcraft",
+  },
+  {
+    name: "Picky Eater",
+    picture:
+      "https://static.wikia.nocookie.net/hearthstone_gamepedia/images/c/c5/BG24_009_Battlegrounds.png",
+    tier: 1,
+    type: "Demon",
+    availability: "Current-Minion",
+    keywords: "Battlecry",
+  },
+  {
+    name: "Pupbot",
+    picture:
+      "https://static.wikia.nocookie.net/hearthstone_gamepedia/images/3/39/BG21_022_Battlegrounds.png",
+    tier: 1,
+    type: "Mech",
+    availability: "Current-Minion",
+    keywords: "Divine Shield",
+  },
+  {
+    name: "Razorfen Geomancer",
+    picture:
+      "https://static.wikia.nocookie.net/hearthstone_gamepedia/images/d/d1/BG20_100_Battlegrounds.png",
+    tier: 1,
+    type: "Quilboar",
+    availability: "Current-Minion",
+    keywords: ["Battlecry", "Blood Gem"],
+  },
+  {
+    name: "Red Whelp",
+    picture:
+      "https://static.wikia.nocookie.net/hearthstone_gamepedia/images/4/4a/BGS_019_Battlegrounds.png",
+    tier: 1,
+    type: "Dragon",
+    availability: "Current-Minion",
+    keywords: "Start of Turn",
+  },
+  {
+    name: "Refreshing Anomaly",
+    picture:
+      "https://static.wikia.nocookie.net/hearthstone_gamepedia/images/5/5d/BGS_116_Battlegrounds.png",
+    tier: 1,
+    type: "Elemental",
+    availability: "Current-Minion",
+    keywords: "Battlecry",
+  },
+  {
+    name: "Rockpool Hunter",
+    picture:
+      "https://static.wikia.nocookie.net/hearthstone_gamepedia/images/6/60/BG_UNG_073_Battlegrounds.png",
+    tier: 1,
+    type: "Murloc",
+    availability: "Current-Minion",
+    keywords: "Battlecry",
+  },
+  {
+    name: "Scallywag",
+    picture:
+      "https://static.wikia.nocookie.net/hearthstone_gamepedia/images/3/38/BGS_061_Battlegrounds.png",
+    tier: 1,
+    type: "Pirate",
+    availability: "Current-Minion",
+    keywords: ["Deathrattle","Summon"]
+  },
+  {
+    name: "Scavenging Hyena",
+    picture:
+      "https://static.wikia.nocookie.net/hearthstone_gamepedia/images/1/1d/BG_EX1_531_Battlegrounds.png",
+    tier: 1,
+    type: "Beast",
+    availability: "Current-Minion",
+    keywords: "",
+  },
+  {
+    name: "Sellemental",
+    picture:
+      "https://static.wikia.nocookie.net/hearthstone_gamepedia/images/c/c4/BGS_115_Battlegrounds.png",
+    tier: 1,
+    type: "Elemental",
+    availability: "Current-Minion",
+    keywords: "",
+  },
+  {
+    name: "Shell Collector",
+    picture:
+      "https://static.wikia.nocookie.net/hearthstone_gamepedia/images/d/d2/BG23_002_Battlegrounds.png",
+    tier: 1,
+    type: "Naga",
+    availability: "Current-Minion",
+    keywords: "Battlecry",
+  },
+  {
+    name: "Sun-Bacon Relaxer",
+    picture:
+      "https://static.wikia.nocookie.net/hearthstone_gamepedia/images/2/26/BG20_301_Battlegrounds.png",
+    tier: 1,
+    type: "Quilboar",
+    availability: "Current-Minion",
+    keywords: "Blood Gem",
+  },
+  {
+    name: "Swampstriker",
+    picture:
+      "https://static.wikia.nocookie.net/hearthstone_gamepedia/images/3/33/BG22_401_Battlegrounds.png",
+    tier: 1,
+    type: "Murloc",
+    availability: "Current-Minion",
+    keywords: "",
+  },
+  {
+    name: "Tavern Tipper",
+    picture:
+      "https://static.wikia.nocookie.net/hearthstone_gamepedia/images/6/6f/BG23_352_Battlegrounds.png",
+    tier: 1,
+    type: "Neutral",
+    availability: "Current-Minion",
+    keywords: "End of Turn",
+  },
+  {
+    name: "Wrath Weaver",
+    picture:
+      "https://static.wikia.nocookie.net/hearthstone_gamepedia/images/1/16/BGS_004_Battlegrounds.png",
+    tier: 1,
+    type: "Neutral",
+    availability: "Current-Minion",
+    keywords: "",
+  },
+  {
+    name: "Deep-Sea Angler",
+    picture:
+      "https://static.wikia.nocookie.net/hearthstone_gamepedia/images/b/be/BG23_004_Battlegrounds.png",
+    tier: 2,
+    type: "Naga",
+    availability: "Current-Minion",
+    keywords: "Spellcraft",
+  },
+  {
+    name: "Freedealing Gambler",
+    picture:
+      "https://static.wikia.nocookie.net/hearthstone_gamepedia/images/d/d3/BGS_049_Battlegrounds.png",
+    tier: 2,
+    type: "Pirate",
+    availability: "Current-Minion",
+    keywords: "",
+  },
+  {
+    name: "Glyph Guardian",
+    picture:
+      "https://static.wikia.nocookie.net/hearthstone_gamepedia/images/1/1b/BGS_045_Battlegrounds.png",
+    tier: 2,
+    type: "Dragon",
+    availability: "Current-Minion",
+    keywords: "",
+  },
+  {
+    name: "Harvest Golem",
+    picture:
+      "https://static.wikia.nocookie.net/hearthstone_gamepedia/images/e/e2/BG_EX1_556_Battlegrounds.png",
+    tier: 2,
+    type: "Mech",
+    availability: "Current-Minion",
+    keywords: ["Deathrattle","Summon"]
+  },
+  {
+    name: "Impulsive Trickster",
+    picture:
+      "https://static.wikia.nocookie.net/hearthstone_gamepedia/images/3/36/BG21_006_Battlegrounds.png",
+    tier: 2,
+    type: "Demon",
+    availability: "Current-Minion",
+    keywords: "Deathrattle",
+  },
+  {
+    name: "Kaboom Bot",
+    picture:
+      "https://static.wikia.nocookie.net/hearthstone_gamepedia/images/2/26/BG_BOT_606_Battlegrounds.png",
+    tier: 2,
+    type: "Mech",
+    availability: "Current-Minion",
+    keywords: "Deathrattle",
+  },
+  {
+    name: "Lava Lurker",
+    picture:
+      "https://static.wikia.nocookie.net/hearthstone_gamepedia/images/0/08/BG23_009_Battlegrounds.png",
+    tier: 2,
+    type: "Naga",
+    availability: "Current-Minion",
+    keywords: "Spellcraft",
+  },
+  {
+    name: "Leapfrogger",
+    picture:
+      "https://static.wikia.nocookie.net/hearthstone_gamepedia/images/1/12/BG21_000_Battlegrounds.png",
+    tier: 2,
+    type: "Beast",
+    availability: "Current-Minion",
+    keywords: "Deathrattle",
+  },
+  {
+    name: "Metaltooth Leaper",
+    picture:
+      "https://static.wikia.nocookie.net/hearthstone_gamepedia/images/3/32/BG_GVG_048_Battlegrounds.png",
+    tier: 2,
+    type: "Mech",
+    availability: "Current-Minion",
+    keywords: "Battlecry",
+  },
+  {
+    name: "Mind Muck",
+    picture:
+      "https://static.wikia.nocookie.net/hearthstone_gamepedia/images/e/e4/BG23_357_Battlegrounds.png",
+    tier: 2,
+    type: "Demon",
+    availability: "Current-Minion",
+    keywords: "Battlecry",
+  },
+  {
+    name: "Molten Rock",
+    picture:
+      "https://static.wikia.nocookie.net/hearthstone_gamepedia/images/d/d7/BGS_127_Battlegrounds.png",
+    tier: 2,
+    type: "Elemental",
+    availability: "Current-Minion",
+    keywords: "Taunt",
+  },
+  {
+    name: "Murloc Warleader",
+    picture:
+      "https://static.wikia.nocookie.net/hearthstone_gamepedia/images/5/5f/BG_EX1_507_Battlegrounds.png",
+    tier: 2,
+    type: "Murloc",
+    availability: "Current-Minion",
+    keywords: "",
+  },
+  {
+    name: "Party Elemental",
+    picture:
+      "https://static.wikia.nocookie.net/hearthstone_gamepedia/images/f/fe/BGS_120_Battlegrounds.png",
+    tier: 2,
+    type: "Elemental",
+    availability: "Current-Minion",
+    keywords: "",
+  },
+  {
+    name: "Piggyback Imp",
+    picture:
+      "https://static.wikia.nocookie.net/hearthstone_gamepedia/images/9/97/BG_AV_309_Battlegrounds.png",
+    tier: 2,
+    type: "Demon",
+    availability: "Current-Minion",
+    keywords: ["Deathrattle","Summon"]
+  },
+  {
+    name: "Rabid Saurolisk",
+    picture:
+      "https://static.wikia.nocookie.net/hearthstone_gamepedia/images/a/ac/BGS_075_Battlegrounds.png",
+    tier: 2,
+    type: "Beast",
+    availability: "Current-Minion",
+    keywords: "Deathrattle",
+  },
+  {
+    name: "Roadboar",
+    picture:
+      "https://static.wikia.nocookie.net/hearthstone_gamepedia/images/f/fa/BG20_101_Battlegrounds.png",
+    tier: 2,
+    type: "Quilboar",
+    availability: "Current-Minion",
+    keywords: ["Frenzy","Blood Gem"],
+  },
+  {
+    name: "Saltscale Honcho",
+    picture:
+      "https://static.wikia.nocookie.net/hearthstone_gamepedia/images/2/29/BG21_008_Battlegrounds.png",
+    tier: 2,
+    type: "Murloc",
+    availability: "Current-Minion",
+    keywords: "",
+  },
+  {
+    name: "Selfless Hero",
+    picture:
+      "https://static.wikia.nocookie.net/hearthstone_gamepedia/images/4/47/BG_OG_221_Battlegrounds.png",
+    tier: 2,
+    type: "Neutral",
+    availability: "Current-Minion",
+    keywords: ["Deathrattle","Divine Shield"],
+  },
+  {
+    name: "Sewer Rat",
+    picture:
+      "https://static.wikia.nocookie.net/hearthstone_gamepedia/images/8/86/BG19_010_Battlegrounds.png",
+    tier: 2,
+    type: "Beast",
+    availability: "Current-Minion",
+    keywords: ["Deathrattle","Summon","Taunt"],
+  },
+  {
+    name: "Snail Cavalry",
+    picture:
+      "https://static.wikia.nocookie.net/hearthstone_gamepedia/images/a/a2/BG23_001_Battlegrounds.png",
+    tier: 2,
+    type: "Naga",
+    availability: "Current-Minion",
+    keywords: "",
+  },
+  {
+    name: "Southsea Captain",
+    picture:
+      "https://static.wikia.nocookie.net/hearthstone_gamepedia/images/4/4b/BG_NEW1_027_Battlegrounds.png",
+    tier: 2,
+    type: "Pirate",
+    availability: "Current-Minion",
+    keywords: "",
+  },
+  {
+    name: "Sparring Partner",
+    picture:
+      "https://static.wikia.nocookie.net/hearthstone_gamepedia/images/8/82/BG_AT_069.png",
+    tier: 2,
+    type: "Neutral",
+    availability: "Current-Minion",
+    keywords: ["Battlecry","Taunt"],
+  },
+  {
+    name: "Spawn of N'Zoth",
+    picture:
+      "https://static.wikia.nocookie.net/hearthstone_gamepedia/images/8/8e/BG_OG_256_Battlegrounds.png",
+    tier: 2,
+    type: "Neutral",
+    availability: "Current-Minion",
+    keywords: "Deathrattle"
+  },
+  {
+    name: "Tad",
+    picture:
+      "https://static.wikia.nocookie.net/hearthstone_gamepedia/images/c/cf/BG22_202_Battlegrounds.png",
+    tier: 2,
+    type: "Murloc",
+    availability: "Current-Minion",
+    keywords: "",
+  },
+  {
+    name: "Tough Tusk",
+    picture:
+      "https://static.wikia.nocookie.net/hearthstone_gamepedia/images/9/93/BG20_102_Battlegrounds.png",
+    tier: 2,
+    type: "Quilboar",
+    availability: "Current-Minion",
+    keywords: ["Blood Gem","Divine Shield"]
+  },
+  {
+    name: "Whelp Smuggler",
+    picture:
+      "https://static.wikia.nocookie.net/hearthstone_gamepedia/images/f/f7/BG21_013_Battlegrounds.png",
+    tier: 2,
+    type: "Neutral",
+    availability: "Current-Minion",
+    keywords: "",
+  },
+  {
+    name: "Yo-Ho-Ogre",
+    picture:
+      "https://static.wikia.nocookie.net/hearthstone_gamepedia/images/c/c9/BGS_060_Battlegrounds.png",
+    tier: 2,
+    type: "Pirate",
+    availability: "Current-Minion",
+    keywords: "Taunt",
+  },
+  {
+    name: "Amber Guardian",
+    picture:
+      "https://static.wikia.nocookie.net/hearthstone_gamepedia/images/3/3c/BG24_500_Battlegrounds.png",
+    tier: 3,
+    type: "Neutral",
+    availability: "Current-Minion",
+    keywords: "Taunt"
+  },
+  {
+    name: "Arm of the Empire",
+    picture:
+      "https://static.wikia.nocookie.net/hearthstone_gamepedia/images/0/0e/BGS_110_Battlegrounds.png",
+    tier: 3,
+    type: "Dragon",
+    availability: "Current-Minion",
+    keywords: ["Divine Shield","Start of Combat"]
+  },
+  {
+    name: "Bannerboar",
+    picture:
+      "https://static.wikia.nocookie.net/hearthstone_gamepedia/images/e/ed/BG20_201_Battlegrounds.png",
+    tier: 3,
+    type: "Quilboar",
+    availability: "Current-Minion",
+    keywords: "Blood Gem"
+  },
+  {
+    name: "Bird Buddy",
+    picture:
+      "https://static.wikia.nocookie.net/hearthstone_gamepedia/images/b/be/BG21_002_Battlegrounds.png",
+    tier: 2,
+    type: "Neutral",
+    availability: "Current-Minion",
+    keywords: "Avenge"
+  },
+  {
+    name: "Bristleback Brute",
+    picture:
+      "https://static.wikia.nocookie.net/hearthstone_gamepedia/images/c/c0/BG20_103_Battlegrounds.png",
+    tier: 3,
+    type: "Quilboar",
+    availability: "Current-Minion",
+    keywords: "Blood Gem"
+  },
+  {
+    name: "Bronze Warden",
+    picture:
+      "https://static.wikia.nocookie.net/hearthstone_gamepedia/images/1/1f/BGS_034_Battlegrounds.png",
+    tier: 3,
+    type: "Dragon",
+    availability: "Current-Minion",
+    keywords: ["Divine Shield","Reborn","Summon"]
+  },
+  {
+    name: "Coldlight Seer",
+    picture:
+      "https://static.wikia.nocookie.net/hearthstone_gamepedia/images/f/f5/BG_EX1_103_Battlegrounds.png",
+    tier: 3,
+    type: "Murloc",
+    availability: "Current-Minion",
+    keywords: "Battlecry"
+  },
+  {
+    name: "Crackling Cyclone",
+    picture:
+      "https://static.wikia.nocookie.net/hearthstone_gamepedia/images/6/61/BGS_119_Battlegrounds.png",
+    tier: 3,
+    type: "Elemental",
+    availability: "Current-Minion",
+    keywords: ["Divine Shield","Windfury"]
+  },
+  {
+    name: "Deflect-o-Bot",
+    picture:
+      "https://static.wikia.nocookie.net/hearthstone_gamepedia/images/4/46/BGS_071_Battlegrounds.png",
+    tier: 3,
+    type: "Mech",
+    availability: "Current-Minion",
+    keywords: "Divine Shield"
+  },
+  {
+    name: "Felfin Navigator",
+    picture:
+      "https://static.wikia.nocookie.net/hearthstone_gamepedia/images/f/f4/BG_BT_010_Battlegrounds.png",
+    tier: 3,
+    type: "Murloc",
+    availability: "Current-Minion",
+    keywords: "Battlecry"
+  },
+  {
+    name: "First Mate Pip",
+    picture:
+      "https://static.wikia.nocookie.net/hearthstone_gamepedia/images/4/4a/BG23_192_Battlegrounds.png",
+    tier: 3,
+    type: "Pirate",
+    availability: "Current-Minion",
+    keywords: ""
+  },
+  {
+    name: "Houndmaster",
+    picture:
+      "https://static.wikia.nocookie.net/hearthstone_gamepedia/images/b/b3/BG_DS1_070_Battlegrounds.png",
+    tier: 3,
+    type: "Neutral",
+    availability: "Current-Minion",
+    keywords: ["Battlecry","Taunt"]
+  },
+  {
+    name: "Iron Sensei",
+    picture:
+      "https://static.wikia.nocookie.net/hearthstone_gamepedia/images/8/8d/BG_GVG_027_Battlegrounds.png",
+    tier: 3,
+    type: "Mech",
+    availability: "Current-Minion",
+    keywords: "End of Turn"
+  },
+  {
+    name: "Kathra'natir",
+    picture:
+      "https://static.wikia.nocookie.net/hearthstone_gamepedia/images/5/56/BG21_039_Battlegrounds.png",
+    tier: 3,
+    type: "Demon",
+    availability: "Current-Minion",
+    keywords: "Immune"
+  },
+  {
+    name: "Khadgar",
+    picture:
+      "https://static.wikia.nocookie.net/hearthstone_gamepedia/images/6/65/BG_DAL_575_Battlegrounds.png",
+    tier: 3,
+    type: "Neutral",
+    availability: "Current-Minion",
+    keywords: "Summon"
+  },
+
+];
+
+let answerName;
+let userAnswer;
+let randomNumber;
+
+const generateAnswer = () => {
+    let randomNumber;
+    randomNumber = Math.floor(Math.random() * hearthstoneBattlegroundsOjbect.length);
+    answerName = hearthstoneBattlegroundsOjbect[randomNumber].name;
+}
+
+const checkAnswer = () => {
+    const userAnswer = document.getElementById("user-submit").value
+    console.log("answer is =", answerName, "user reply is =", userAnswer)
+    const userAnswerObject = hearthstoneBattlegroundsOjbect.find(element => element.name === userAnswer);
+    const realAnswerObject = hearthstoneBattlegroundsOjbect.find(element => element.name === answerName);
+
+    const clues = document.getElementById("clues");
+    const clueFirst = document.getElementById("clue-1");
+    const clueSecond = document.getElementById("clue-2");
+    const clueThird = document.getElementById("clue-3");
+    const clueFourth = document.getElementById("clue-4");
+
+
+    console.log("Found Element is =",userAnswerObject)
+    if (userAnswerObject.tier === realAnswerObject.tier){
+      console.log("User answer tier is the same with the actual answer");
+      clueFirst.style.backgroundColor = "rgb(0,125,0)";
+      clueFirst.style.border = "1px solid rgb(0,255,255)";
+      clueFirst.innerText = "Tier Score is Correct!"
+    } else {
+      console.log("User answer tier is NOT the same with the actual answer");
+      clueFirst.style.backgroundColor = "rgb(125,0,0)";
+      clueFirst.style.border = "1px solid rgb(0,0,0)";
+      clueFirst.innerText = "Tier Score is NOT Correct!"
+    }
+    if (userAnswerObject.type === realAnswerObject.type){
+      console.log("User answer type is the same with the actual answer");
+      clueSecond.style.backgroundColor = "rgb(0,125,0)";
+      clueSecond.style.border = "1px solid rgb(0,255,255)";
+      clueSecond.innerText = "Minion type is Correct!"
+    } else {
+      console.log("User answer type is NOT the same with the actual answer");
+      clueSecond.style.backgroundColor = "rgb(125,0,0)";
+      clueSecond.style.border = "1px solid rgb(0,0,0)";
+      clueSecond.innerText = "Minion type is NOT Correct!"
+    }
+    if (userAnswerObject.availability === realAnswerObject.availability){
+      console.log("User answer availability is the same with the actual answer");
+      clueThird.style.backgroundColor = "rgb(0,125,0)";
+      clueThird.style.border = "1px solid rgb(0,255,255)";
+      clueThird.innerText = "The minion is: " + realAnswerObject.availability
+    } else {
+      console.log("User answer availability is NOT the same with the actual answer");
+      clueThird.style.backgroundColor = "rgb(125,0,0)";
+      clueThird.style.border = "1px solid rgb(0,0,0)";
+      clueThird.innerText = "The minion is NOT ", userAnswerObject.availability
+    }
+    if (userAnswerObject.keywords === realAnswerObject.keywords){
+      console.log("User answer keywords is the same with the actual answer");
+      clueFourth.style.backgroundColor = "rgb(0,125,0)";
+      clueFourth.style.border = "1px solid rgb(0,255,255)";
+      clueFourth.innerText = "Keywords are Correct!"
+    } else {
+      console.log("User answer keywords is NOT the same with the actual answer");
+      clueFourth.style.backgroundColor = "rgb(125,0,0)";
+      clueFourth.style.border = "1px solid rgb(0,0,0)";
+      clueFourth.innerText = "keywords are NOT Correct!"
+    }
+    if (answerName === userAnswer){
+        const nameAnswer = document.getElementById("display_2");
+        const imageAnswer = document.getElementById("display-img");
+        document.getElementById("display_1").innerText = "!! CONGRATULATIONS !!";
+        nameAnswer.innerText = userAnswerObject.name
+        imageAnswer.src = userAnswerObject.picture
+    }
+}
+
+

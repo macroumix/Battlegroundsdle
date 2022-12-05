@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Hearthstone Battlegroundsdle</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="deneme.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link rel="stylesheet" href="https://fonts.cdnfonts.com/css/warcraft" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script src="script.js"></script>
+    <script src="deneme.js"></script>
+  </head>
+
+  <body>
+    <div id="body-div">
+      <div id="title-box">
+        <div id="title">Hearthstone Battlegroundsdle</div>
+        <img
+          src="https://bnetcmsus-a.akamaihd.net/cms/gallery/XJLC18A290C41572368655391.png"
+          alt="Battlegrounds Logo"
+          id="logo"
+        />
+        <div
+          id="sandwich-icon"
+          class="container"
+          onclick="sandwichFunction(this)"
+        >
+          <div class="bar1"></div>
+          <div class="bar2"></div>
+          <div class="bar3"></div>
+        </div>
+      </div>
+      <div id="main-buttons">
+        <button id="reset-page" onclick="resetPage()">Restart Challenge</button>
+      </div>
+      <div id="display-box">
+        <p id="display_1"></p>
+        <p id="display_2"></p>
+        <img id="display-img" />
+      </div>
+      <div id="hint-box">
+        <div id="hint-1"></div>
+        <div id="hint-2"></div>
+        <div id="hint-3">
+          <div id="hint-3-1">
+            <div id="Current">
+              Minion Availibilty: Available in Bob's Tavern
+            </div>
+          </div>
+          <div id="hint-3-2">
+            <div id="Token">
+              Minion Availibilty: Unavailable in Bob's Tavern(Token)
+            </div>
+          </div>
+        </div>
+        <div id="hint-4" class="grid">
+          <div id="Avenge">Avenge</div>
+          <div id="Battlecry">Battlecry</div>
+          <div id="Blood-Gem">Blood Gem</div>
+          <div id="Cleave">Cleave</div>
+          <div id="Deathrattle">Deathrattle</div>
+          <div id="Discover">Discover</div>
+          <div id="Divine-Shield">Divine Shield</div>
+          <div id="End-of-Turn">End of Turn</div>
+          <div id="Frenzy">Frenzy</div>
+          <div id="Magnetic">Magnetic</div>
+          <div id="Poisonous">Poisonous</div>
+          <div id="Reborn">Reborn</div>
+          <div id="Refresh">Refresh</div>
+          <div id="Spellcraft">Spellcraft</div>
+          <div id="Start-of-Combat">Start of Combat</div>
+          <div id="Summon">Summon</div>
+          <div id="Taunt">Taunt</div>
+          <div id="Whenever-Attack">Whenever Attack</div>
+          <div id="Windfury">Windfury</div>
+        </div>
+      </div>
+      <div id="form">
+        <input id="user-submit" type="text" name="minion" placeholder="minion-name" required />
+        <button onclick="checkAnswer()">GUESS</button>
+      </div>
+      <div id="clues"></div>
+    </div>
+    <div id="info-box">
+      <div id="clues"></div>
+    </div>
+    <div id="info-box">
+      <div id="info-text">
+        <div id="info-text-title">How to Play<i class="fa fa-question-circle-o" aria-hidden="true"></i></div>
+        
+      <br></br>
+        There are 4 clues to help you find the answer. <br></br>Start guessing but guess
+        considerably, as you only have 6 guesses to find the answer. <br></br>First clue
+        is the tier score of the minion. <br></br>Second clue is the type of the minion.
+        E.g. Naga or Murloc. <br></br>Third clue is if the minion is available in Bob's
+        Tavern or if it is a Token minion. (Yes the minion can be token :)) <br></br>Final
+        clue is the keywords of the minions text. This part is slightly tricky.<br></br>
+        An example of which is: If the minion has deathrattle and summons a
+        minion when it dies, the correct keywords for the minion are :
+        (Deathrattle & Summon) <br></br>If the minion with deathrattle dies and doesn't
+        summon anything the correct keywords for the minion is : Deathrattle <br></br>If
+        the minion has a keyword "deathrattle" in its text but doesn't actually
+        have a deathrattle like "Rabid Saurolisk" the correct keyword for the
+        minion is still "Deathrattle". <br></br> Also, all reborn minions have summon in them as expected. <br></br>Keep all these in mind and have a great
+        game :)<br></br>
+        <a id="back-to-top" onclick="sandwichFunction(this)">I understood! Lets Play!</a>
+      </div>
+    </div>
+  </body>
+</html>

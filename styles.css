@@ -1,0 +1,335 @@
+* {
+  --color-1-light-brown: #b97902ff;
+  --color-2-cream: #e8dece;
+  --color-3-red: rgb(125, 0, 0);
+  --color-4-dark: rgb(35, 35, 35);
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+#display_1 {
+  font-size: 1.5rem;
+}
+
+/* autocomplete-list */
+
+#user-submitautocomplete-list > div {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  font-size: 1.25rem;
+}
+
+/* List of minions to be displayed */
+#minion-list {
+  background-color: var(--color-1-light-brown);
+  width: 550px;
+  position: absolute;
+  top: 108px;
+  right: 8px;
+  visibility: hidden;
+  font-size: 1.5rem;
+}
+
+/* How to play on the right side of the website*/
+#info-box {
+  background-color: var(--color-1-light-brown);
+  width: 550px;
+  position: absolute;
+  top: 108px;
+  right: 8px;
+  visibility: hidden;
+  font-size: 1.5rem;
+}
+
+#info-text-title {
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+body {
+  background-color: var(--color-4-dark);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: var(--color-2-cream);
+  font-family: "warcraft", sans-serif;
+}
+
+#title-box {
+  display: grid;
+  grid-template-columns: 25fr 5fr 10fr;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--color-1-light-brown);
+  font-size: 3rem;
+  color: var(--color-2-cream);
+}
+
+#info-text {
+  padding: 10px;
+}
+
+#title {
+  text-align: right;
+}
+
+#logo {
+  height: 100px;
+}
+
+/* buttons */ 
+#filter-button {
+  height: 35px;
+}
+
+#guess {
+  height: 50px;
+}
+
+#sandwich-icon-l {
+  margin-right: auto;
+  margin-left: 30px;
+}
+
+#sandwich-icon-r {
+  margin-left: auto;
+  margin-right: 30px;
+}
+
+/* Sandwich Icon */
+.container {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.bar1,
+.bar2,
+.bar3 {
+  width: 35px;
+  height: 5px;
+  background-color: #333;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+.change .bar1 {
+  transform: translate(0, 11px) rotate(-45deg);
+}
+
+.change .bar2 {
+  opacity: 0;
+}
+
+.change .bar3 {
+  transform: translate(0, -11px) rotate(45deg);
+}
+
+/* Sandwich Icon End */
+
+#reset-page {
+  height: 50px;
+  font-family: "warcraft", sans-serif;
+  text-align: center;
+  font-size: 2rem;
+  background-color: var(--color-3-red);
+}
+
+#main-buttons {
+  height: 50px;
+  text-align: center;
+}
+
+button:hover {
+  cursor: pointer;
+  opacity: 0.6;
+}
+
+/* This is created with Domcontentloaded, an erased everytime a guess is made. */
+.hidden {
+  visibility: hidden;
+}
+
+.none {
+  display: none;
+}
+
+/* Clue Div and its styles */
+
+#clues {
+  display: grid;
+  grid-template-columns: 3fr 5fr 5fr 5fr 5fr;
+}
+
+#clues * {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  text-align: center;
+  height: 50px;
+  background-color: var(--color-1-light-brown);
+  border: 5px solid rgb(0, 0, 0);
+}
+
+#generate-answer {
+  height: 50px;
+  font-size: 2rem;
+  background-color: rgb(25, 150, 150);
+  font-family: "warcraft", sans-serif;
+}
+
+#hint-box {
+  background-color: var(--color-2-cream);
+  height: 400px;
+  display: grid;
+  grid-template-columns: 3fr 5fr 6fr 12fr;
+}
+
+#hint-3 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+
+#hint-box > * {
+  color: black;
+  border: 1px solid black;
+  font-size: 1.5rem;
+}
+
+#hint-2 {
+  display: flex;
+  justify-content: center;
+  align-items: left;
+  flex-direction: column;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 2fr 2fr 2fr 2fr;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+
+.autocomplete * {
+  color: var(--color-1-light-brown);
+}
+
+#hint-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+
+#hint-1 * {
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#hint-2 * {
+  height: 35px;
+  display: flex;
+  padding-left: 5px;
+}
+
+#hint-3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#hint-4 * {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+#form input {
+  background-color: #e8dece;
+  border: 4px #b97902ff solid;
+  border-radius: 15px;
+}
+
+#form button {
+  width: 100px;
+  background-color: var(--color-2-cream);
+  border: 4px var(--color-1-light-brown) solid;
+  border-top-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+#display-box {
+  text-align: center;
+}
+
+.black-background {
+  opacity: 0.45;
+}
+
+.red-background {
+  background-color: red;
+}
+
+.cursor {
+  cursor: zoom-in;
+}
+
+.show-image {
+  position: relative;
+  top: 150px;
+  left: 7px;
+  visibility: visible;
+}
+
+
+@media screen and (max-width: 750px) {
+    #display_1 {
+        font-size: 15px;
+}
+    #hint-4 * {
+      background-color: yellow;
+      font-size: 1px;
+    }
+    #minion-list {
+        font-size: 0.8rem;
+}
+    #info-box {
+        font-size: 30px;
+}
+    #info-text-title {
+        font-size: 60px;
+}
+    #title-box {
+        font-size: 120px;
+}
+
+    #reset-page {
+        font-size: 250px;
+}
+    #generate-answer {
+        font-size: 1rem;
+}
+    #hint-box > * {
+        font-size: 0.8rem;
+}
+}
