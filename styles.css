@@ -5,6 +5,11 @@
   --color-4-dark: rgb(35, 35, 35);
 }
 
+body {
+  background-image: url(https://cdn.mos.cms.futurecdn.net/UFPYSQHGMCETx3Fx2VByYc.jpg);
+  background-attachment: fixed;
+}
+
 a:hover {
   text-decoration: underline;
 }
@@ -301,35 +306,78 @@ button:hover {
   visibility: visible;
 }
 
-
-@media screen and (max-width: 750px) {
+@media (max-width: 1050px) {
     #display_1 {
-        font-size: 15px;
-}
-    #hint-4 * {
-      background-color: yellow;
-      font-size: 1px;
+      font-size: 1rem;
     }
+
+    #user-submitautocomplete-list > div {
+      font-size: 1rem;
+    }
+    
     #minion-list {
-        font-size: 0.8rem;
-}
+      font-size: 1rem;
+    }
+    
     #info-box {
-        font-size: 30px;
-}
+      font-size: 1rem;
+    }
+
     #info-text-title {
-        font-size: 60px;
-}
+      font-size: 2rem;
+    }
+
     #title-box {
-        font-size: 120px;
-}
+      font-size: 2rem;
+    }
 
     #reset-page {
-        font-size: 250px;
-}
+      font-size: 1.2rem;
+    }
+
     #generate-answer {
-        font-size: 1rem;
-}
+      font-size: 1.2rem;
+    }
+
     #hint-box > * {
-        font-size: 0.8rem;
+      font-size: 1rem;
+    }
 }
+
+@media (max-width: 770px) {
+  #display_1 {
+    font-size: 0.6rem;
+  }
+
+  #user-submitautocomplete-list > div {
+    font-size: 0.6rem;
+  }
+  
+  #minion-list {
+    font-size: 0.6rem;
+  }
+  
+  #info-box {
+    font-size: 0.6rem;
+  }
+
+  #info-text-title {
+    font-size: 1.2rem;
+  }
+
+  #title-box {
+    font-size: 1.2rem;
+  }
+
+  #reset-page {
+    font-size: 0.7rem;
+  }
+
+  #generate-answer {
+    font-size: 0.7rem;
+  }
+
+  #hint-box > * {
+    font-size: 0.6rem;
+  }
 }
