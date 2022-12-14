@@ -4,9 +4,7 @@ const hearthstoneBattlegroundsOjbect = [
     image:
       "https://static.wikia.nocookie.net/hearthstone_gamepedia/images/6/66/BG_CFM_315_Battlegrounds.png",
     tier: 1,
-    tierImage: "https://i.ibb.co/ysc3trZ/tier-1.png",
     type: "Beast",
-    typeImage: "https://i.ibb.co/n826zZ9/beast.png",
     availability: "Current",
     keywords: ["Battlecry", "Summon"],
   },
@@ -15,9 +13,7 @@ const hearthstoneBattlegroundsOjbect = [
     image:
       "https://static.wikia.nocookie.net/hearthstone_gamepedia/images/f/f5/BGS_055_Battlegrounds.png",
     tier: 1,
-    tierImage: "https://i.ibb.co/ysc3trZ/tier-1.png",
     type: "Pirate",
-    typeImage: "https://i.ibb.co/TM75G5T/pirate.png",
     availability: "Current",
     keywords: ["Battlecry"],
   },
@@ -26,9 +22,7 @@ const hearthstoneBattlegroundsOjbect = [
     image:
       "https://static.wikia.nocookie.net/hearthstone_gamepedia/images/6/65/BG21_027_Battlegrounds.png",
     tier: 1,
-    tierImage: "https://i.ibb.co/ysc3trZ/tier-1.png",
     type: "Dragon",
-    typeImage: "https://i.ibb.co/5FPf3r3/dragon.png",
     availability: "Current",
     keywords: [],
   },
@@ -37,9 +31,7 @@ const hearthstoneBattlegroundsOjbect = [
     image:
       "https://static.wikia.nocookie.net/hearthstone_gamepedia/images/1/1b/BGS_014_Battlegrounds.png",
     tier: 1,
-    tierImage: "https://i.ibb.co/ysc3trZ/tier-1.png",
     type: "Demon",
-    typeImage: "https://i.ibb.co/QFcbCww/demon.png",
     availability: "Current",
     keywords: ["Taunt", "Deathrattle", "Summon"],
   },
@@ -48,9 +40,7 @@ const hearthstoneBattlegroundsOjbect = [
     image:
       "https://static.wikia.nocookie.net/hearthstone_gamepedia/images/6/6e/BG_ULD_217_Battlegrounds.png",
     tier: 1,
-    tierImage: "https://i.ibb.co/ysc3trZ/tier-1.png",
     type: "Mech",
-    typeImage: "https://i.ibb.co/D99qd3Z/Mech.png",
     availability: "Current",
     keywords: ["Reborn", "Summon", "End-of-Turn"],
   },
@@ -59,7 +49,6 @@ const hearthstoneBattlegroundsOjbect = [
     image:
       "https://static.wikia.nocookie.net/hearthstone_gamepedia/images/e/e0/BG23_000_Battlegrounds.png",
     tier: 1,
-    tierImage: "https://i.ibb.co/ysc3trZ/tier-1.png",
     type: "Naga",
     availability: "Current",
     keywords: ["Spellcraft"],
@@ -69,9 +58,7 @@ const hearthstoneBattlegroundsOjbect = [
     image:
       "https://static.wikia.nocookie.net/hearthstone_gamepedia/images/c/c5/BG24_009_Battlegrounds.png",
     tier: 1,
-    tierImage: "https://i.ibb.co/ysc3trZ/tier-1.png",
     type: "Demon",
-    typeImage: "https://i.ibb.co/QFcbCww/demon.png",
     availability: "Current",
     keywords: ["Battlecry"],
   },
@@ -80,9 +67,7 @@ const hearthstoneBattlegroundsOjbect = [
     image:
       "https://static.wikia.nocookie.net/hearthstone_gamepedia/images/3/39/BG21_022_Battlegrounds.png",
     tier: 1,
-    tierImage: "https://i.ibb.co/ysc3trZ/tier-1.png",
     type: "Mech",
-    typeImage: "https://i.ibb.co/D99qd3Z/Mech.png",
     availability: "Current",
     keywords: ["Divine-Shield"],
   },
@@ -91,7 +76,6 @@ const hearthstoneBattlegroundsOjbect = [
     image:
       "https://static.wikia.nocookie.net/hearthstone_gamepedia/images/d/d1/BG20_100_Battlegrounds.png",
     tier: 1,
-    tierImage: "https://i.ibb.co/ysc3trZ/tier-1.png",
     type: "Quilboar",
     availability: "Current",
     keywords: ["Battlecry", "Blood-Gem"],
@@ -101,9 +85,7 @@ const hearthstoneBattlegroundsOjbect = [
     image:
       "https://static.wikia.nocookie.net/hearthstone_gamepedia/images/4/4a/BGS_019_Battlegrounds.png",
     tier: 1,
-    tierImage: "https://i.ibb.co/ysc3trZ/tier-1.png",
     type: "Dragon",
-    typeImage: "https://i.ibb.co/5FPf3r3/dragon.png",
     availability: "Current",
     keywords: ["Start-of-Combat"],
   },
@@ -112,9 +94,7 @@ const hearthstoneBattlegroundsOjbect = [
     image:
       "https://static.wikia.nocookie.net/hearthstone_gamepedia/images/5/5d/BGS_116_Battlegrounds.png",
     tier: 1,
-    tierImage: "https://i.ibb.co/ysc3trZ/tier-1.png",
     type: "Elemental",
-    typeImage: "https://i.ibb.co/yXT4qXk/Elemental.png",
     availability: "Current",
     keywords: ["Battlecry", "Refresh"],
   },
@@ -123,9 +103,7 @@ const hearthstoneBattlegroundsOjbect = [
     image:
       "https://static.wikia.nocookie.net/hearthstone_gamepedia/images/6/60/BG_UNG_073_Battlegrounds.png",
     tier: 1,
-    tierImage: "https://i.ibb.co/ysc3trZ/tier-1.png",
     type: "Murloc",
-    typeImage: "https://i.ibb.co/ZxMBsbJ/Murloc.png",
     availability: "Current",
     keywords: ["Battlecry"],
   },
@@ -134,9 +112,7 @@ const hearthstoneBattlegroundsOjbect = [
     image:
       "https://static.wikia.nocookie.net/hearthstone_gamepedia/images/3/38/BGS_061_Battlegrounds.png",
     tier: 1,
-    tierImage: "https://i.ibb.co/ysc3trZ/tier-1.png",
     type: "Pirate",
-    typeImage: "https://i.ibb.co/TM75G5T/pirate.png",
     availability: "Current",
     keywords: ["Deathrattle", "Summon"],
   },
@@ -145,9 +121,7 @@ const hearthstoneBattlegroundsOjbect = [
     image:
       "https://static.wikia.nocookie.net/hearthstone_gamepedia/images/1/1d/BG_EX1_531_Battlegrounds.png",
     tier: 1,
-    tierImage: "https://i.ibb.co/ysc3trZ/tier-1.png",
     type: "Beast",
-    typeImage: "https://i.ibb.co/n826zZ9/beast.png",
     availability: "Current",
     keywords: [],
   },
@@ -156,9 +130,7 @@ const hearthstoneBattlegroundsOjbect = [
     image:
       "https://static.wikia.nocookie.net/hearthstone_gamepedia/images/c/c4/BGS_115_Battlegrounds.png",
     tier: 1,
-    tierImage: "https://i.ibb.co/ysc3trZ/tier-1.png",
     type: "Elemental",
-    typeImage: "https://i.ibb.co/yXT4qXk/Elemental.png",
     availability: "Current",
     keywords: [],
   },
@@ -167,7 +139,6 @@ const hearthstoneBattlegroundsOjbect = [
     image:
       "https://static.wikia.nocookie.net/hearthstone_gamepedia/images/d/d2/BG23_002_Battlegrounds.png",
     tier: 1,
-    tierImage: "https://i.ibb.co/ysc3trZ/tier-1.png",
     type: "Naga",
     availability: "Current",
     keywords: ["Battlecry"],
@@ -2004,10 +1975,9 @@ const checkAnswer = () => {
   guessedMinionBlock.appendChild(imageElement);
   imageElement.classList.add("hidden");
   
-    if (userAnswerObject.name === realAnswerObject.name) {
+  if (userAnswerObject.name === realAnswerObject.name) {
     guessedMinionBlock.style.backgroundColor = "#064606"
   }
-
 
   guessedMinionBlock.addEventListener("mouseover", () => {
     imageElement.style.height = "250px";
@@ -2359,6 +2329,10 @@ const checkAnswer = () => {
     );
   }, 3750);
 };
+
+const findBestGuesses = () => {
+  
+}
 
 document.addEventListener("DOMContentLoaded", () => {
   createGrid();
